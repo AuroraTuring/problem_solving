@@ -13,10 +13,12 @@ Text.
 # Challenge 3
 # Write a method or function that takes in an argument of a number that represents the current time to the closest hour in 24-hour military time. (i.e. 11 = 11:00 AM, 16 = 4:00 PM). The function should return a different greeting based on the time of day.
 
-4 AM - 11 AM: Good morning!
-12 PM - 4 PM: Good afternoon!
-5 PM - 8PM: Good evening!
-9 PM - 3 AM: Good night! 
+# 4 AM - 11 AM: Good morning!
+# 12 PM - 4 PM: Good afternoon!
+# 5 PM - 8PM: Good evening!
+# 9 PM - 3 AM: Good night! 
+
+Text.
 
 
 # Challenge 4
@@ -25,8 +27,8 @@ Text.
 Text. 
 
 
-#Challenge 5 - OPTIONAL! Super Spicy!
-#Start with the array of strings below. Print all of the words in the array, but change every t to an uppercase T.
+# Challenge 5 - OPTIONAL! Super Spicy!
+# Start with the array of strings below. Print all of the words in the array, but change every t to an uppercase T.
 
 animals: ['cat', 'dog', 'parrot', 'turtle', 'bird'] 
 
