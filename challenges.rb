@@ -3,16 +3,18 @@
 
 name = "Aurora" 
 
-def name.even
-
 p "Does #{name} have an even number of characters?" 
-name % 2 == 0 
+name.length % 2 == 0 
 
 
 # Challenge 2
 # Update your previous method or function so it accepts an array. The method or function should return a boolean that describes whether or not the array's length is an even number.
 
-Text. 
+name = "Aurora"
+names = ["Aurora", "Mika", "Viki", "Drew"] 
+
+p "Does #{names} have an even number of characters?" 
+names.length % 2 == 0 
 
 
 # Challenge 3
@@ -20,10 +22,24 @@ Text.
 
 # 4 AM - 11 AM: Good morning!
 # 12 PM - 4 PM: Good afternoon!
-# 5 PM - 8PM: Good evening!
+# 5 PM - 8 PM: Good evening!
 # 9 PM - 3 AM: Good night! 
 
-Text.
+hour = 15
+
+def current_time(hour)
+  if hour.include?("PM") + 12 
+end
+
+if hour = 4 to 11
+  "Good morning!" 
+elsif hour = 12 to 16
+  "Good afternoon!"
+elsif hour = 17 to 20
+  "Good evening!"
+else hour = 21 to 3
+  "Good night!"
+end
 
 
 # Challenge 4
