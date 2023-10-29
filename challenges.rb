@@ -1,7 +1,12 @@
 # Challenge 1
 # Write a method or function that accepts a string. The method or function should return a boolean that describes whether or not the string has an even number of characters. 
 
-Text. 
+name = "Aurora" 
+
+def name.even
+
+p "Does #{name} have an even number of characters?" 
+name % 2 == 0 
 
 
 # Challenge 2
@@ -30,5 +35,7 @@ Text.
 # Challenge 5 - OPTIONAL! Super Spicy!
 # Start with the array of strings below. Print all of the words in the array, but change every t to an uppercase T.
 
-animals: ['cat', 'dog', 'parrot', 'turtle', 'bird'] 
+animals = ['cat', 'dog', 'parrot', 'turtle', 'bird'] 
 
+p animals.replace(["t", "T"]) 
+# This method is wrong. 
