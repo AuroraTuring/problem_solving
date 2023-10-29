@@ -28,7 +28,8 @@ names.length % 2 == 0
 hour = 15
 
 def current_time(hour)
-  if hour.include?("PM") + 12 
+  if hour.include?("PM") 
+    p hour + 12 
 end
 
 if hour = 4 to 11
