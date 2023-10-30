@@ -28,19 +28,18 @@ names.length % 2 == 0
 hour = 15
 
 def current_time(hour)
-  if hour.include?("PM") 
-    p hour + 12 
+  if (4..11).include?(hour)
+    "Good morning!" 
+  elsif (12..16).include?(hour)
+    "Good afternoon!"
+  elsif (17..20).include?(hour)
+    "Good evening!"
+  elsif (21..3).include?(hour)
+    "Good night!"
+  end
 end
 
-if hour = 4 to 11
-  "Good morning!" 
-elsif hour = 12 to 16
-  "Good afternoon!"
-elsif hour = 17 to 20
-  "Good evening!"
-else hour = 21 to 3
-  "Good night!"
-end
+
 
 
 # Challenge 4
@@ -54,5 +53,5 @@ Text.
 
 animals = ['cat', 'dog', 'parrot', 'turtle', 'bird'] 
 
-p animals.replace(["t", "T"]) 
+p animals.gsub?(["t", "T"]) 
 # This method is wrong. 
