@@ -48,8 +48,10 @@ end
 numbers = [1, 2, 3, 5, 5, 5, 1, 2, 3, 4]
 
 def phone_digits(phone) 
-  p "Phone Number: (numbers.fetch(0, 1, 2)) numbers.fetch(3, 4, 5) - numbers.fetch(6, 7, 8, 9)"
+  "Phone Number: (#{phone.fetch(0)} #{phone.fetch(1)} #{phone.fetch(2)}) #{phone.fetch(3)} #{phone.fetch(4)} #{phone.fetch(5)} - #{phone.fetch(6)} #{phone.fetch(7)} #{phone.fetch(8)} #{phone.fetch(9)}"
 end
+
+puts phone_digits(numbers)
 
 
 # Challenge 5 - OPTIONAL! Super Spicy!
